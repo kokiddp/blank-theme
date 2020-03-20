@@ -1,0 +1,10 @@
+/*!
+Theme Name: blank-theme
+Theme URI: https://github.com/kokiddp/blank-theme.git
+Author: Gabriele Coquillard
+Author URI: https://www.elk-lab.com/
+Description: Barebone blank theme
+Version: 0.0.1
+License: GPL-3.0
+*/
+html{font-size:16px}body{overflow-x:hidden;margin:0}#main{width:100%;position:relative}#main #container{width:80%;max-width:1500px;margin:0 auto}img,picture{max-width:100%;height:auto;-o-object-fit:cover;object-fit:cover}a:active,a:hover{text-decoration:underline;cursor:pointer}ol,p,ul{margin:0 0 1.65em 0}li,p{line-height:1.65em}.clearfix{position:relative}.clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0}* html .clearfix{zoom:1}#overlay{position:fixed;display:none;width:100%;height:100%;top:0;right:0;bottom:0;left:0;background-color:rgba(0,0,0,.5);z-index:2}h1,h2,h3,h4,h5,h6{margin-top:2rem;margin-bottom:2rem}h1{font-size:3.75rem}h1:first-child{margin-top:0}h2{font-size:2.8125rem}h2:first-child{margin-top:0}h3{font-size:1.875rem}h3:first-child{margin-top:0}h4{font-size:1.625rem}h4:first-child{margin-top:0}h5{font-size:1.375rem}h5:first-child{margin-top:0}h6{font-size:1.25rem}h6:first-child{margin-top:0}p{font-size:1rem}p:first-child{margin-top:0}@media (max-width:480px){h1{font-size:2rem}h2{font-size:1.75rem}h3{font-size:1.25rem}h4{font-size:1.125rem}h5{font-size:1.1rem}h6{font-size:1.05rem}p{font-size:1rem}}header#header{width:100%;position:relative}header#header #header-container{width:80%;max-width:1500px;margin:0 auto}footer#footer{width:100%;position:relative}footer#footer #footer-container{width:80%;max-width:1500px;margin:0 auto}

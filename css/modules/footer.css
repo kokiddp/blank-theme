@@ -1,0 +1,9 @@
+footer#footer {
+    width: 100%;
+    position: relative;
+    & #footer-container {
+        width: 80%;
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+}

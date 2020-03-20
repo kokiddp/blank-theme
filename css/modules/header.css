@@ -1,0 +1,15 @@
+header#header {
+    width: 100%;
+    position: relative;
+    & #header-container {
+        width: 80%;
+        max-width: 1500px;
+        margin: 0 auto;
+        & #logo {}
+        & #top-menu {
+            & #menu-top-menu {
+                & li {}
+            }
+        }
+    }
+}

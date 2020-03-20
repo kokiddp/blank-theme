@@ -1,0 +1,57 @@
+{
+    "name": "blank-theme",
+    "version": "0.0.1",
+    "description": "Barebone blank theme",
+    "main": "scripts.js",
+    "scripts": {
+        "watch": "gulp watch",
+        "build": "gulp build"
+    },
+    "author": {
+        "name": "Gabriele Coquillard",
+        "email": "gabriele.coquillard@gmail.com",
+        "url": "https://www.elk-lab.com/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kokiddp/blank-theme.git"
+    },
+    "license": "GPL-3.0",
+    "devDependencies": {
+        "@babel/core": "^7.5.5",
+        "@babel/preset-env": "^7.5.5",
+        "autoprefixer": "^9.6.1",
+        "babel-loader": "^8.0.6",
+        "browser-sync": "^2.26.7",
+        "gulp": "^4.0.2",
+        "gulp-clean-css": "^4.2.0",
+        "gulp-cli": "^2.2.0",
+        "gulp-header": "^2.0.9",
+        "gulp-imagemin": "^7.1.0",
+        "gulp-postcss": "^8.0.0",
+        "gulp-webp": "^4.0.1",
+        "gulp-zip": "^5.0.1",
+        "postcss-color-function": "^4.1.0",
+        "postcss-hexrgba": "^1.0.2",
+        "postcss-import": "^12.0.1",
+        "postcss-mixins": "^6.2.2",
+        "postcss-nested": "^4.1.2",
+        "postcss-simple-vars": "^5.0.2",
+        "terser-webpack-plugin": "^2.3.5",
+        "webpack": "^4.39.1",
+        "webpack-cli": "^3.3.6"
+    },
+    "dependencies": {
+        "jquery": "^3.4.1",
+        "jquery-migrate": "^3.1.0"
+    },
+    "browserslist": {
+        "production": [
+            ">0.01%",
+            "not dead"
+        ],
+        "development": [
+            ">1%"
+        ]
+    }
+}
