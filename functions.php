@@ -2,7 +2,7 @@
 namespace BlankTheme;
 
 //Requires
-require_once( trailingslashit( get_template_directory() ) . 'includes/class-blank.theme.php' );
+require_once( trailingslashit( get_template_directory() ) . 'includes/class-blank-theme.php' );
 
 //Init theme
 $theme = new BlankTheme;
