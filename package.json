@@ -42,7 +42,7 @@
         "webpack-cli": "^3.3.6"
     },
     "dependencies": {
-        "jquery": "^3.4.1",
+        "jquery": "^3.5.0",
         "jquery-migrate": "^3.1.0"
     },
     "browserslist": {
